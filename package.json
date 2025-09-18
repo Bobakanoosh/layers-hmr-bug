@@ -1,0 +1,23 @@
+{
+	"name": "dashboard",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"postinstall": "nuxt prepare",
+		"dev": "nuxt dev",
+		"build": "nuxt build",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview"
+	},
+	"dependencies": {
+		"@tailwindcss/vite": "^4.1.13",
+		"nuxt": "3.18.0"
+	},
+	"devDependencies": {
+		"tailwindcss": "^4.1.11",
+		"typescript": "^5.8.3",
+		"vite-tsconfig-paths": "^5.1.4",
+		"vue-tsc": "2.2.2"
+	},
+	"packageManager": "pnpm@10.12.4"
+}
