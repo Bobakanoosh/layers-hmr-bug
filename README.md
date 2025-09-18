@@ -11,3 +11,9 @@ Steps to reproduce:
 7. Change nuxt version to `3.17.7`
 8. Repeat steps 2-5
 9. HMR works
+
+Notably, HMR works when removing the following code from `main.css` on version `3.18.0`.
+
+```css
+@source "../../../layers";
+```
